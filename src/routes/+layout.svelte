@@ -17,6 +17,9 @@
 />
 <div class="flex gap-2">
 	<Window title="Links" classes="!w-48 h-fit">
+		{#snippet icon()}
+			<img src="/icons/emblem-symbolic-link.png" alt="Links Icon" class="w-6 h-6" />
+		{/snippet}
 		<a
 			href="/"
 			class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
@@ -72,9 +75,14 @@
 			><img src="/icons/github.svg" alt="GitHub Icon" class="w-4 h-4" />GitHub</a
 		>
 	</Window>
-	{@render children()}
+	<div class="flex-1">
+		{@render children()}
+	</div>
 	<div class="flex-col">
 		<Window title="Downloads n' stuff" classes="h-fit">
+			{#snippet icon()}
+				<img src="/icons/download-later.png" alt="Downloads Icon" class="w-6 h-6" />
+			{/snippet}
 			<a
 				href="/"
 				class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
@@ -91,8 +99,8 @@
 				GT:Classic Server</a
 			>
 		</Window>
-		<p class="text-center mt-1 text-white/35 text-shadow-black/10 text-shadow-lg">
-			website by xenon
-		</p>
 	</div>
 </div>
+<p class="text-center mt-auto pt-2 text-white/35 text-shadow-black/10 text-shadow-lg">
+	© 2026 The Gorilla Tag: Classic Team <br /> Not affiliated with Another Axiom
+</p>
