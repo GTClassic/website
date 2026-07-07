@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import 'tailwindcss';
+
+body{
+    font-family: Arial, Helvetica, Arimo, sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding: 15px;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url(../lib/assets/mtns.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    transform: scale(1.1);
+    z-index: -1;
+}
