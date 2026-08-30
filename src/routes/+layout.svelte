@@ -65,14 +65,14 @@
 		>
 		<hr class="my-2" />
 		<a
-			href="/"
+			href="https://discord.gg/YJxVwHmrrt"
 			class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
 			><img src="/icons/discord.svg" alt="Discord Icon" class="w-4 h-4" />Discord</a
 		>
 		<a
-			href="/"
+			href="https://git.soweli.uk/GTClassic"
 			class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
-			><img src="/icons/github.svg" alt="GitHub Icon" class="w-4 h-4" />GitHub</a
+			><img src="/icons/github.svg" alt="GitHub Icon" class="w-4 h-4" />Git</a
 		>
 	</Window>
 	<div class="flex-1">
@@ -83,6 +83,8 @@
 			{#snippet icon()}
 				<img src="/icons/download-later.png" alt="Downloads Icon" class="w-6 h-6" />
 			{/snippet}
+			<p>Not available yet!</p>
+			<!--
 			<a
 				href="/"
 				class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
@@ -98,6 +100,7 @@
 				><img src="/icons/places/network-server.svg" alt="Downloads Icon" class="w-4 h-4" />Download
 				GT:Classic Server</a
 			>
+			-->
 		</Window>
 	</div>
 </div>

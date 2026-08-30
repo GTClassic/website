@@ -13,6 +13,7 @@
 			kicked or banned from servers, but we also have rules specific to hosting servers, and having
 			them displayed on our server list.
 		</p>
+		<!--
 		<hr class="my-2" />
 
 		<p class="text-xl">Master server rules</p>
@@ -20,7 +21,8 @@
 		<ul>
 			<li>No slurs or offensive language in your server name.</li>
 			<li>to be continued idfk</li>
-			<!--TODO: agree on a set of rules for server hosting-->
+			TODO: agree on a set of rules for server hosting
 		</ul>
+		-->
 	</div>
 </Window>

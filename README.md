@@ -1,42 +1,77 @@
-# sv
+# GT:Classic website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-pnpm dlx sv@0.16.2 create --template minimal --types ts --add prettier tailwindcss="plugins:none" eslint --install pnpm ./
-```
+Source code and build config for the [GT:Classic](https://github.com/GTClassic) website.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies and start a dev server:
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm install
+pnpm dev
 ```
+
+Open the printed URL (defaults to http://localhost:5173). The server auto-reloads on changes.
 
 ## Building
 
-To create a production version of your app:
+Create a production build, output to the `build/` directory:
 
 ```sh
-npm run build
+pnpm build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build locally:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```sh
+pnpm preview
+```
+
+Run the type-checker and linter before pushing:
+
+```sh
+pnpm check
+pnpm lint
+```
+
+## Deploying to Cloudflare Pages
+
+The site uses `@sveltejs/adapter-static`, so the whole site is pre-rendered into static files at
+build time and can be hosted anywhere a static file server works.
+
+### Manage Pages / dashboard
+
+1. Push this repository to a Git host (e.g. GitHub or GitLab).
+2. In Cloudflare Pages, create a new project and connect the repository.
+3. Set the following build settings:
+   - **Framework preset:** SvelteKit
+   - **Build command:** `pnpm build`
+   - **Build output directory:** `build`
+   - **Root directory:** `/` (leave as the default, or set it if your repo lives in a subfolder)
+   - **Node.js version:** 18 or newer
+4. Cloudflare Pages will automatically deploy on every push to the connected branch.
+
+### Wrangler CLI
+
+```sh
+pnpm add -D wrangler
+
+# deploy directly
+npx wrangler pages deploy build --project-name <your-project-name>
+
+# or preview locally
+npx wrangler pages dev build
+```
+
+To use the CLI with the same project every time, add a `wrangler.toml`:
+
+```toml
+name = "<your-project-name>"
+compatibility_date = "2024-01-01"
+
+[pages]
+  build_command = "pnpm build"
+  output_dir = "build"
+```
+
+Then build and deploy with `npx wrangler pages deploy`.

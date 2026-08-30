@@ -5,6 +5,19 @@
 
 <Window title="Downloads" classes="flex-1 h-fit w-full">
 	<div class="text-shadow-black/5 text-shadow-md">
+		<p class="text-2xl font-bold">sorry :(</p>
+		<p>
+			Unfortunately, GT:Classic is still a work in progress. Although you can't play <span
+				class="italic">yet</span
+			>, you can still
+			<a
+				href="https://discord.gg/YJxVwHmrrt"
+				class="underline hover:no-underline hover:text-black text-[#2b375a]">join our Discord</a
+			>
+			to get pinged once a beta is available, or the game releases!
+			<br />
+		</p>
+		<!--
 		<p class="text-2xl font-bold">Downloads for GTClassic 1.0.0</p>
 		<p class="italic text-black/50 text-shadow-black/10 text-shadow-lg">
 			tl:dr; you probably want the launcher.
@@ -40,5 +53,6 @@
 				subtitle="1.0.0, Windows"
 			/>
 		</div>
+	-->
 	</div>
 </Window>

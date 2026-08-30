@@ -37,9 +37,23 @@
 			Rather than having a centralised cluster of servers, GT:Classic lets players host their own
 			servers, with their own rules, their own settings, and their own mods. We host a "Master
 			Server" which acts as a server list. Selfhosting is made as easy as possible, so that anyone
-			can do it. (you run one file!)
+			can do it. <span class="opacity-50 italic">(you run one file!)</span>
 		</p>
+		<hr class="my-2" />
+
 		<p class="text-2xl font-bold">Ready to try?</p>
+		<p>
+			Unfortunately, GT:Classic is still a work in progress. Although you can't play <span
+				class="italic">yet</span
+			>, you can still
+			<a
+				href="https://discord.gg/YJxVwHmrrt"
+				class="underline hover:no-underline hover:text-black text-[#2b375a]">join our Discord</a
+			>
+			to get pinged once a beta is available, or the game releases!
+			<br />
+		</p>
+		<!--
 		<p>Download GT:Classic here!</p>
 		<hr class="my-2" />
 
@@ -56,5 +70,6 @@
 				subtitle="1.0.0, Windows"
 			/>
 		</div>
+		-->
 	</div>
 </Window>

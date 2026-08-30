@@ -4,6 +4,7 @@
 
 <Window title="Credits" classes="flex-1 h-fit w-full">
 	<div class="text-shadow-black/5 text-shadow-md">
+		<!-- TODO: redesign this page to show ppls pfps and websites and wtv the fuck-->
 		<p class="text-2xl font-bold">Credits</p>
 		<p>All the people who made GT:Classic possible!</p>
 		<hr class="my-2" />
@@ -14,7 +15,7 @@
 			<li>• Lapis - Developer</li>
 			<li>• mia - Developer, French (Canada) localization</li>
 			<li>• not a bird - Developer</li>
-			<li>• xenon - Developer, Polish localization</li>
+			<li>• xenon/niko - Developer, Polish localization, Web ev</li>
 			<li>• biotest05 - Developer</li>
 			<li>• Lofiat - Developer</li>
 		</ul>
