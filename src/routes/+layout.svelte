@@ -72,7 +72,7 @@
 		<a
 			href="https://git.soweli.uk/GTClassic"
 			class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
-			><img src="/icons/github.svg" alt="GitHub Icon" class="w-4 h-4" />Git</a
+			><img src="/icons/forgejo.svg" alt="Forgejo Icon" class="w-4 h-4" />Git</a
 		>
 	</Window>
 	<div class="flex-1">
