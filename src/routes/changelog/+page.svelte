@@ -6,7 +6,7 @@
 	<div class="text-shadow-black/5 text-shadow-md">
 		<p class="text-2xl font-bold">Changelog</p>
 		<p>
-			Unfortunately, GT:Classic is still a work in progress, thus we don't have a changelog yet.
+			Unfortunately, Gorilla Tag: Classic is still a work in progress, thus we don't have a changelog yet.
 			Though, you can still
 			<a
 				href="https://discord.gg/YJxVwHmrrt"

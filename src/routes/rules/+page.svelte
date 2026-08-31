@@ -10,8 +10,7 @@
 		<p class="text-2xl font-bold">Rules</p>
 		<p>
 			Generally it is a good idea to follow the in-game code of conduct as to not get yourself
-			kicked or banned from servers, but we also have rules specific to hosting servers, and having
-			them displayed on our server list.
+			kicked or banned from servers, but we also have rules specific to hosting servers, which can be seen in-game.
 		</p>
 		<!--
 		<hr class="my-2" />

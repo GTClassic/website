@@ -10,27 +10,27 @@
 	<div class="text-shadow-black/5 text-shadow-md">
 		<p class="text-2xl font-bold">Welcome to Gorilla Tag: Classic!</p>
 		<p>
-			GT:Classic is a community-first, self-hostable fork of Gorilla Tag v1.0.8 + accompanying
-			software. Players and creatives should be of upmost importance, not profit margins.
+			Gorilla Tag: Classic is a community-first, self-hostable fork of Gorilla Tag v1.0.8 + accompanying
+			software. It is inspired by long-running, community-ran multiplayer gaming communities
+			among the likes of Source Engine, Minecraft, Doom, and Quake.
 		</p>
 		<div class="mb-2"></div>
 		<p class="text-2xl font-bold">But, why?</p>
 		<p>
-			Gorilla Tag was supposed to be, well, a game about tag. Over the past few years, Another Axiom
-			has been destroying any semblance of the game's former glory by adding unneeded content,
-			microtransactions and generally making the game unfun. For this reason, we've decided to make
-			a fork of the game which brings the game back to its former glory.
+			Gorilla Tag was supposed to be a game about tag. Over time, as profit took a top priority, Another Axiom
+			has distracted from Gorilla Tag's core game-play ideologies by adding unneeded content,
+			microtransactions, and generally making the game unfun. For this reason, we've decided to make
+			a fork of the game designed to focus on the core tag experience while providing further flexibility to its community.
 		</p>
 		<p class="text-2xl font-bold">What sets you apart from clones?</p>
 		<p>
-			The Oculus store is flooded with low quality ripped Gorilla Tag versions, bloated with mod
-			menus, maps, and other bullshit. We want to seperate ourselves from such clones in a couple
-			ways:
+			The Oculus store is flooded with low quality ripped Gorilla Tag versions.
+			We want to seperate ourselves from such clones in a couple ways:
 		</p>
 		<p class="text-xl font-semibold">Minimal Bloat</p>
 		<p>
-			No mod menus, no extra maps, nothing. GT:Classic is meant to be as close to the base game as
-			possible, barring some QoL features.
+			No mod menus or extra maps as part of the base game. Gorilla Tag: Classic is meant to harness the
+			simplicity of 2021-era Gorilla Tag.
 		</p>
 		<p class="text-xl font-semibold">Selfhostable Servers</p>
 		<p>

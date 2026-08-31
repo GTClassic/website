@@ -11,22 +11,22 @@
 
 		<p class="text-xl font-semibold">What is GT:Classic?</p>
 		<p>
-			GT:Classic is a community-first, self-hostable fork of Gorilla Tag v1.0.8 and its accompanying
+			Gorilla Tag: Classic is a community-first, self-hostable fork of Gorilla Tag v1.0.8 and its accompanying
 			software. It aims to bring the game back to its roots, without microtransactions, mod menus,
 			or unneeded content.
 		</p>
 
 		<p class="text-xl font-semibold">Is it legal?</p>
 		<p>
-			GT:Classic is built on Gorilla Tag v1.0.8, released in mid-June 2021. We don't sell anything,
-			we don't run ads, and we don't make money off it. GT:Classic is a fan-made project and isn't
+			Gorilla Tag: Classic is built on Gorilla Tag v1.0.8, released in mid-June 2021. We don't sell anything,
+			we don't run ads, and we don't make money off it. Gorilla Tag: Classic is a fan-made project and isn't
 			affiliated with or endorsed by Another Axiom. We only distribute patches, never the full game.
-			You will need to own the game on Steam or Oculus to play.
+			You will need to own the game on Steam to play.
 		</p>
 
 		<p class="text-xl font-semibold">Is there a download?</p>
 		<p>
-			Not yet! GT:Classic is still a work in progress. When a beta is available we'll post it on the
+			Not yet! Gorilla Tag: Classic is still a work in progress. When a beta is available we'll post it on the
 			<a
 				href="https://discord.gg/YJxVwHmrrt"
 				class="underline hover:no-underline hover:text-black text-[#2b375a]">Discord</a
@@ -36,8 +36,8 @@
 
 		<p class="text-xl font-semibold">Does it have extra maps or mods?</p>
 		<p>
-			No. GT:Classic is meant to be as close to the base game as possible, barring a few quality of
-			life features. No mod menus, no extra maps, none of the clutter that fills clones.
+			Not included as part of the base game. Gorilla Tag: Classic is meant to harness the simplicity
+			of this era of Gorilla Tag, and thus extra content like this is encouraged to thrive in community modding efforts instead.
 		</p>
 
 		<p class="text-xl font-semibold">How do servers work?</p>
@@ -61,7 +61,7 @@
 		<p>Probably. GT:Classic has been tested on:</p>
 		<ul>
 			<li>• Oculus Quest 3</li>
-			<li>• Oculus Quest 3S</li>
+			<li>• Oculus Quest 3s</li>
 			<li>• Oculus Quest 2</li>
 			<li>• Oculus Quest 1</li>
 			<li>• Valve Index</li>
@@ -88,7 +88,7 @@
 		<p class="text-xl font-semibold">Is there a standalone build?</p>
 		<p>
 			A standalone build is planned. You will need to sideload it, since we will not release it on
-			th Oculus store.
+			the Oculus store.
 		</p>
 	</div>
 </Window>

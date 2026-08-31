@@ -19,7 +19,7 @@
 
 		<p class="text-xl font-semibold">Bugs &amp; issues</p>
 		<p>
-			Found a bug? Hop into Discord and let us know! screenshots, logs, and the steps to reproduce
+			Found a bug? Hop into Discord and let us know! Screenshots, logs, and the steps to reproduce
 			it all help us track it down.
 		</p>
 
@@ -36,13 +36,12 @@
 		<p class="text-xl font-semibold">Moderation &amp; reports</p>
 		<p>
 			Moderation is entirely up to server owners. Since there are no accounts, we cannot globally
-			ban anyone. If someone's being a nuisance, and the server owner is not present, you can call a
-			votekick on the scoreboard if the server owner has them enabled.
+			ban anyone.
 		</p>
 
 		<p class="text-xl font-semibold">Donate</p>
 		<p>
-			GT:Classic is a community project and always will be. we don't charge for anything and we
+			GT:Classic is a community project and always will be. We don't charge for anything and we
 			never will. If you'd like to keep things running, the best help is spreading the word and
 			contributing. We do not accept donations.
 		</p>
