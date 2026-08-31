@@ -23,6 +23,5 @@ export default defineConfig({
 				strict: true
 			})
 		})
-	],
-	base: '/website/'
+	]
 });
