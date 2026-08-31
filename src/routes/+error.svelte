@@ -35,7 +35,7 @@
 		<p>{info.body}</p>
 		<a
 			href="/"
-			class="flex gap-1 items-center underline hover:no-underline hover:text-black text-[#2b375a]"
+			class="flex gap-1 items-center underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white"
 			><img src="/icons/actions/go-home.svg" alt="Home Icon" class="w-4 h-4" />Go Home</a
 		>
 	</div>

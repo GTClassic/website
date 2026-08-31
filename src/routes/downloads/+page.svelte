@@ -12,7 +12,7 @@
 			>, you can still
 			<a
 				href="https://discord.gg/YJxVwHmrrt"
-				class="underline hover:no-underline hover:text-black text-[#2b375a]">join our Discord</a
+				class="underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white">join our Discord</a
 			>
 			to get pinged once a beta is available, or the game releases!
 			<br />

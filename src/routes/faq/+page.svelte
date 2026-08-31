@@ -29,7 +29,7 @@
 			Not yet! Gorilla Tag: Classic is still a work in progress. When a beta is available we'll post it on the
 			<a
 				href="https://discord.gg/YJxVwHmrrt"
-				class="underline hover:no-underline hover:text-black text-[#2b375a]">Discord</a
+				class="underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white">Discord</a
 			>
 			and on the downloads page. Join the server to get pinged the moment it releases.
 		</p>
@@ -52,7 +52,7 @@
 		<p>
 			In-game, it's a good idea to follow the code of conduct so you don't get kicked or banned. If
 			you host a server and want it listed on our master server, you also have to follow our
-			<a href="/rules" class="underline hover:no-underline hover:text-black text-[#2b375a]"
+			<a href="/rules" class="underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white"
 				>server rules</a
 			>.
 		</p>
@@ -68,7 +68,7 @@
 		</ul>
 		If your headset isn't on this list, tell us whether it works in the<a
 			href="https://discord.gg/YJxVwHmrrt"
-			class="underline hover:no-underline hover:text-black text-[#2b375a]">Discord</a
+			class="underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white">Discord</a
 		>
 		and we'll add it to the list!
 
@@ -77,12 +77,12 @@
 			We're always happy to have contributors! Once the game releases you can stop by the
 			<a
 				href="https://discord.gg/YJxVwHmrrt"
-				class="underline hover:no-underline hover:text-black text-[#2b375a]">Discord</a
+				class="underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white">Discord</a
 			>
 			, or the
 			<a
 				href="https://git.soweli.uk/GTClassic"
-				class="underline hover:no-underline hover:text-black text-[#2b375a]">Git</a
+				class="underline hover:no-underline hover:text-black dark:hover:text-white text-[#2b375a] dark:text-white">Git</a
 			> if you'd like to contribute!
 		</p>
 		<p class="text-xl font-semibold">Is there a standalone build?</p>
